@@ -30,7 +30,7 @@ const Index = () => (
                 7 Mayfield Road<br />
                 Glenfield<br />
                 Auckland<br />
-                <a href="https://goo.gl/maps/hi6j3av6pFFUr8S26" target="_blank">地圖</a>
+                <a href="https://goo.gl/maps/hi6j3av6pFFUr8S26" rel="noreferrer" target="_blank">地圖</a>
               </address>
             </dd>
             <dt>時間</dt>
@@ -61,7 +61,7 @@ const Index = () => (
             「了凡四訓」，世人幾乎都曉得是改造命運的寶典。有福份的人，大都能於獲得此書之後，細心閱讀，進而立定志向，力行實踐，以化疾病於無形，掃除窮困的危脅，消除生活的煩惱，達到化凡入聖的境界。
           </p>
           <p>
-            <a href="https://youtu.be/C5Wvlmr_DD0" target="_blank">了凡四訓電影版</a>
+            <a href="https://youtu.be/C5Wvlmr_DD0" rel="noreferrer" target="_blank">了凡四訓電影版</a>
           </p>
           <h2>聯繫方式</h2>
           <dl>
