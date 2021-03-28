@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Container from '../components/Container';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../styles/index.css';
 
 const Index = () => (
@@ -13,7 +14,7 @@ const Index = () => (
     <main>
       <Container>
         <article>
-          <h1>紐西蘭北岸淨宗學會</h1>
+          <h1>阿彌陀佛！歡迎來到北岸淨宗學會</h1>
           <h2>淨宗學會緣起</h2>
           <p>
           「淨宗學會」者，乃夏蓮居大士於二戰後所倡導之專修之 組織。淨空法師弘揚大乘四十年，深知此宗所依，確是十方三世一切諸佛， 度生成佛之第一法門。是以近十年來於台、港、星、馬、美、加、澳等地， 極力宣揚；又印大經及註解百餘萬冊，流通十方，深望此一組織能普遍推展 至全球各處，願諸大善知識，皆能弘演正法，明三世因果，示六道輪迴，表 佛性真常，讚淨土超勝；讀誦大經，勸進行者，求願往生，圓成道果，誓志 宣化，普令群萌，同歸淨域，為本會建立之唯一理想目的。
@@ -29,8 +30,7 @@ const Index = () => (
             <dd>
               <address>
                 Glenfield Senior Citizen Club<br />
-                7 Mayfield Road<br />
-                Glenfield, Auckland（<a href="https://goo.gl/maps/hi6j3av6pFFUr8S26" rel="noreferrer" target="_blank">地圖</a>）
+                7 Mayfield Road, Glenfield, Auckland（<a href="https://goo.gl/maps/hi6j3av6pFFUr8S26" rel="noreferrer" target="_blank">地圖</a>）
               </address>
             </dd>
             <dt>時間</dt>
@@ -77,12 +77,7 @@ const Index = () => (
         </article>
       </Container>
     </main>
-    <footer>
-      <Container>
-        <p>紐西蘭北岸淨宗學會 amtb.org.nz 網頁內容沒有版權，請勿刪改內容，歡迎轉載流通。</p>
-        <p>願以此功德 莊嚴佛淨土 上報四重恩 下濟三塗苦 若有見聞者 悉發菩提心 盡此一報身 同生極樂國</p>
-      </Container>
-    </footer>
+    <Footer />
   </>
 );
 
