@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import Amitabha from './Amitabha.jpg';
 import logo from './logo.png';
 import tagline from './tagline.jpg';
 
