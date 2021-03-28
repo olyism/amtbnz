@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Container from '../components/Container';
+import Header from '../components/Header';
 import '../styles/index.css';
 
 const Index = () => (
@@ -8,6 +9,7 @@ const Index = () => (
     <Helmet>
       <title>紐西蘭北岸淨宗學會</title>
     </Helmet>
+    <Header />
     <main>
       <Container>
         <article>

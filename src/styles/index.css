@@ -1,8 +1,34 @@
+/**
+ * Resets
+ */
+
+body {
+  background: #fdfaf3;
+  margin: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+/**
+ * Base typography
+ */
+
 body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 19px;
   line-height: 1.65;
-  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
 }
 
 h1 {
@@ -14,7 +40,7 @@ h2 {
 }
 
 a {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #bbdeff;
   color: #0076ff;
   cursor: pointer;
   text-decoration: none;
