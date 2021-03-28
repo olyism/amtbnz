@@ -74,6 +74,17 @@ const Index = () => (
               <a href="mailto:amtb.nz@gmail.com">amtb.nz@gmail.com</a>
             </dd>
           </dl>
+          <h2>隨喜樂捐</h2>
+          <p>淨宗學會捐款帳戶捐款用途：法寶流通、日常開支等。如果您有任何需要，例如指定捐助項目、開發票、或有任何問題，請聯繫 <a href="tel:+6494887240">09 488 7240</a> （莊師姐）</p>
+          <h3>北岸淨宗學會捐助賬戶</h3>
+          <dl>
+            <dt>帳號名稱</dt>
+            <dd>Amitabha Buddhist Association of New Zealand</dd>
+            <dt>銀行</dt>
+            <dd>ASB Bank</dd>
+            <dt>帳號</dt>
+            <dd>12-3053-0592437-00</dd>
+          </dl>
         </article>
       </Container>
     </main>
