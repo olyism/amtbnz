@@ -1,36 +1,52 @@
-main {
-  align-content: center;
-  box-sizing: border-box;
-  display: grid;
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
-  hyphens: auto;
+/**
+ * Resets
+ */
+
+body {
+  background: #fdfaf3;
+  margin: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+/**
+ * Base typography
+ */
+
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 19px;
   line-height: 1.65;
-  margin: 0 auto;
-  max-width: 680px;
-  min-height: 100vh;
-  padding: 72px 0;
+}
+
+h1,
+h2 {
   text-align: center;
 }
+
 h1 {
-  font-size: 45px;
+  font-size: 35px;
 }
+
 h2 {
   margin-top: 1.5em;
 }
-p {
-  font-size: 16px;
-}
+
 a {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #bbdeff;
   color: #0076ff;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
 }
+
 a:hover {
   border-bottom: 1px solid #0076ff;
 }
+
 code,
 pre {
   color: #d400ff;
@@ -38,7 +54,31 @@ pre {
     Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: 0.92em;
 }
+
+address {
+  font-style: normal;
+}
+
 code:before,
 code:after {
   content: '\`';
+}
+
+dt {
+  display: inline;
+}
+
+dt::after {
+  content: ": ";
+}
+
+dd {
+  display: inline;
+  margin: 0;
+}
+
+dd::after {
+  content: " ";
+  display: block;
+  margin: 0;
 }

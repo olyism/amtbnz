@@ -1,0 +1,9 @@
+.container {
+  align-content: center;
+  box-sizing: border-box;
+  display: grid;
+  hyphens: auto;
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 32px 24px;
+}
