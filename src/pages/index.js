@@ -28,9 +28,7 @@ const Index = () => (
               <address>
                 Glenfield Senior Citizen Club<br />
                 7 Mayfield Road<br />
-                Glenfield<br />
-                Auckland<br />
-                <a href="https://goo.gl/maps/hi6j3av6pFFUr8S26" rel="noreferrer" target="_blank">地圖</a>
+                Glenfield, Auckland（<a href="https://goo.gl/maps/hi6j3av6pFFUr8S26" rel="noreferrer" target="_blank">地圖</a>）
               </address>
             </dd>
             <dt>時間</dt>
